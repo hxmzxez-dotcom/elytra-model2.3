@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra_model",
+  "version": "1.0.0",
+  "name": "Elytra Model",
+  "description": "This custom resource pack transforms the default Minecraft Elytra into a sleek, highly detailed, and realistic",
+  "icon": "assets/elytra_model/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["com.test.elytramodel.ElytraModelClient"] },
+  "depends": { "fabricloader": "*", "minecraft": "1.21.11", "fabric-api": "*" }
+}
